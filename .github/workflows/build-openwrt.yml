@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       ssh:
+      watch:
         description: 'SSH connection to Actions'
         required: true
         default: 'false'
