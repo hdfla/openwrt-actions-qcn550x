@@ -21,7 +21,7 @@ on:
 env:
   REPO_URL: https://github.com/1280-720/openwrt-qcn550x
   REPO_BRANCH: openwrt-23.05-qcn550x
-  BUILDROOT: ${{ github.workspace }}/openwrt
+  BUILDROOT: ${{ github.workspace }}/openwrt-qcn550x
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
   CUSTOM_PACKAGES_SH: ${{ github.workspace }}/custom-packages.sh
