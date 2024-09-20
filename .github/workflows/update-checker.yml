@@ -1,7 +1,7 @@
 name: Update Checker
 
 env:
-  REPO_URL: https://github.com/1280-720/openwrt-qcn550x
+  REPO_URL: https://github.com/1280-720/openwrt
   REPO_BRANCH: openwrt-23.05-qcn550x
 
 on:
