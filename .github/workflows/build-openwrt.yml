@@ -18,6 +18,9 @@ on:
         default: 'snapshot'
         type: string
 
+permissions:
+  contents: write
+
 env:
   REPO_URL: https://github.com/1280-720/openwrt-qcn550x
   REPO_BRANCH: openwrt-23.05-qcn550x
