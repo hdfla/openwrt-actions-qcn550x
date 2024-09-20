@@ -22,9 +22,9 @@ permissions:
   contents: write
 
 env:
-  REPO_URL: https://github.com/1280-720/openwrt-qcn550x
+  REPO_URL: https://github.com/1280-720/openwrt
   REPO_BRANCH: openwrt-23.05-qcn550x
-  BUILDROOT: ${{ github.workspace }}/openwrt-qcn550x
+  BUILDROOT: ${{ github.workspace }}/openwrt
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
   CUSTOM_PACKAGES_SH: ${{ github.workspace }}/custom-packages.sh
