@@ -33,6 +33,11 @@ echo 'CONFIG_TARGET_ath79=y' >> $BUILDROOT/.config
 echo 'CONFIG_TARGET_ath79_generic=y' >> $BUILDROOT/.config
 echo 'CONFIG_TARGET_ath79_generic_DEVICE_asus_rt-ac59u=y' >> $BUILDROOT/.config
 
+echo '# CONFIG_PACKAGE_kmod-ath10k-ct is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_ath10k-firmware-qca9888-ct is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_kmod-ath10k=y' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_ath10k-firmware-qca9888=y' >> $BUILDROOT/.config
+
 echo 'CONFIG_PACKAGE_luci-proto-batman-adv=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-app-p910nd=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_p910nd=y' >> $BUILDROOT/.config
