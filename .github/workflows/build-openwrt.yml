@@ -15,7 +15,7 @@ on:
       version:
         description: 'OpenWrt version'
         required: true
-        default: 'stable'
+        default: 'snapshot'
         type: string
 
 permissions:
