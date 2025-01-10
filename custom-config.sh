@@ -48,7 +48,7 @@ echo 'CONFIG_PACKAGE_kmod-usb-net-rndis=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_kmod-usb-printer=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_kmod-usb-storage=y' >> $BUILDROOT/.config
 
-echo '# CONFIG_PACKAGE_libustream-mbedtls is not set' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_libustream-openssl=y' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_libustream-mbedtls is not set' >> $BUILDROOT/.config
+#echo 'CONFIG_PACKAGE_libustream-openssl=y' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_wpad-basic-mbedtls is not set' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_wpad-openssl=y' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
