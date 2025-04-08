@@ -15,15 +15,15 @@ on:
       version:
         description: 'OpenWrt version'
         required: true
-        default: 'snapshot'
+        default: 'stable'
         type: string
 
 permissions:
   contents: write
 
 env:
-  REPO_URL: https://github.com/1280-720/openwrt
-  REPO_BRANCH: openwrt-23.05-qcn550x
+  REPO_URL: https://github.com/hdfla/openwrt-qcn550x.git
+  REPO_BRANCH: openwrt-23.05.4-qcn550x
   BUILDROOT: ${{ github.workspace }}/openwrt
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
@@ -33,7 +33,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Initialization environment
