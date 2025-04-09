@@ -1,5 +1,5 @@
 # Use "make defconfig" to generate a complete .config file
-
+make defconfig
 # Custom firmware base
 # echo 'CONFIG_TARGET_x86=y' >> $BUILDROOT/.config
 # echo 'CONFIG_TARGET_x86_64=y' >> $BUILDROOT/.config
