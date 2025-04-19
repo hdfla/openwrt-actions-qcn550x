@@ -59,7 +59,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: Download the sources
-      run: git clone --branch $REPO_BRANCH $REPO_URL
+      run: git clone --branch $REPO_BRANCH $REPO_URL $BUILDROOT
 
     - name: Auto select a specific code revision
       id: autoselect
