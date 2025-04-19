@@ -75,6 +75,14 @@ jobs:
         cd $BUILDROOT && git checkout ${{ github.event.inputs.version }}
         echo "status=success" >> $GITHUB_OUTPUT
 
+    - name: Cache
+      uses: HiGarfield/cachewrtbuild@main
+      with:
+        ccache: 'false'
+        clean: 'false'
+        mixkey: 'ath79'
+        prefix: ${{ github.workspace }}/OpenWrt
+
     - name: Load custom
       run: |
         chmod +x custom-*.sh
