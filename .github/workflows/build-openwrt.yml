@@ -76,12 +76,12 @@ jobs:
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Cache
-      uses: HiGarfield/cachewrtbuild@main
+      uses: stupidloud/cachewrtbuild@main
       with:
         ccache: 'false'
         clean: 'false'
         mixkey: 'ath79'
-        prefix: ${{ github.workspace }}/OpenWrt
+        prefix: ${{ github.workspace }}/openwrt
 
     - name: Load custom
       run: |
