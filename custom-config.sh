@@ -38,6 +38,7 @@ echo '# CONFIG_PACKAGE_ath10k-firmware-qca9888-ct is not set' >> $BUILDROOT/.con
 echo 'CONFIG_PACKAGE_kmod-ath10k=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_ath10k-firmware-qca9888=y' >> $BUILDROOT/.config
 
+echo 'CONFIG_PACKAGE_luci-app-easymesh=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-proto-batman-adv=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-app-p910nd=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_p910nd=y' >> $BUILDROOT/.config
@@ -51,4 +52,4 @@ echo 'CONFIG_PACKAGE_kmod-usb-storage=y' >> $BUILDROOT/.config
 #echo '# CONFIG_PACKAGE_libustream-mbedtls is not set' >> $BUILDROOT/.config
 #echo 'CONFIG_PACKAGE_libustream-openssl=y' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_wpad-basic-mbedtls is not set' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_wpad-mesh-mbedtls=y' >> $BUILDROOT/.config
