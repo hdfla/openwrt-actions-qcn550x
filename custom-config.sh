@@ -31,7 +31,6 @@ echo 'CONFIG_PACKAGE_kmod-ath10k=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_ath10k-firmware-qca9888=y' >> $BUILDROOT/.config
 
 echo 'CONFIG_PACKAGE_luci-app-easymesh=y' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_luci-proto-batman-adv=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-app-p910nd=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_p910nd=y' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-app-wifischedule=y' >> $BUILDROOT/.config
@@ -47,8 +46,8 @@ echo '# CONFIG_PACKAGE_wpad-basic-mbedtls is not set' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
 
 #2025 optimization (since that there are many stronger device for using as gateway)
-#echo 'CONFIG_PACKAGE_odhcp6c=n' >> $BUILDROOT/.config
-#echo 'CONFIG_PACKAGE_odhcpd-ipv6only=n' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_odhcp6c=n' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_odhcpd-ipv6only=n' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-proto-ipv6=n' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_luci-proto-ppp=n' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_ppp=n' >> $BUILDROOT/.config
