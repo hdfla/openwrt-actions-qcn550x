@@ -46,9 +46,9 @@ echo '# CONFIG_PACKAGE_wpad-basic-mbedtls is not set' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
 
 #2025 optimization (since that there are many stronger device for using as gateway)
-echo 'CONFIG_PACKAGE_odhcp6c=n' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_odhcpd-ipv6only=n' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_luci-proto-ipv6=n' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_luci-proto-ppp=n' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_ppp=n' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_ppp-mod-pppoe=n' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_luci-proto-ipv6 is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_luci-proto-ppp is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_odhcp6c is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_odhcpd-ipv6only is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_ppp is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_ppp-mod-pppoe is not set' >> $BUILDROOT/.config
