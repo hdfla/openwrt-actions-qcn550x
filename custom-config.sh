@@ -6,16 +6,6 @@
 # echo 'CONFIG_TARGET_x86_64_DEVICE_generic=y' >> $BUILDROOT/.config
 # echo 'CONFIG_TARGET_ROOTFS_PARTSIZE=3072' >> $BUILDROOT/.config
 
-#echo 'CONFIG_TARGET_mediatek=y' >> $BUILDROOT/.config
-#echo 'CONFIG_TARGET_mediatek_filogic=y' >> $BUILDROOT/.config
-#echo 'CONFIG_TARGET_mediatek_filogic_DEVICE_bananapi_bpi-r3-mini=y' >> $BUILDROOT/.config
-
-# Add OpenClash
-#echo '# CONFIG_PACKAGE_dnsmasq is not set' >> $BUILDROOT/.config
-#echo 'CONFIG_PACKAGE_luci-app-openclash=y' >> $BUILDROOT/.config
-#echo 'CONFIG_PACKAGE_luci-compat=y' >> $BUILDROOT/.config
-#echo 'CONFIG_PACKAGE_wget-ssl=y' >> $BUILDROOT/.config
-
 # Add Docker
 #echo 'CONFIG_PACKAGE_luci-app-dockerman=y' >> $BUILDROOT/.config
 #echo 'CONFIG_PACKAGE_dockerd=y' >> $BUILDROOT/.config
@@ -52,4 +42,4 @@ echo 'CONFIG_PACKAGE_kmod-usb-storage=y' >> $BUILDROOT/.config
 #echo '# CONFIG_PACKAGE_libustream-mbedtls is not set' >> $BUILDROOT/.config
 #echo 'CONFIG_PACKAGE_libustream-openssl=y' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_wpad-basic-mbedtls is not set' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_wpad-mesh-mbedtls=y' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
