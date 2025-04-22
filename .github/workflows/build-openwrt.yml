@@ -15,7 +15,7 @@ on:
       version:
         description: 'OpenWrt version'
         required: true
-        default: 'snapshot'
+        default: 'main'
         type: string
 
 permissions:
@@ -23,7 +23,7 @@ permissions:
 
 env:
   REPO_URL: https://github.com/hdfla/openwrt-qcn550x.git
-  REPO_BRANCH: openwrt-23.05.4-qcn550x
+  REPO_BRANCH: main
   BUILDROOT: ${{ github.workspace }}/openwrt
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
