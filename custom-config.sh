@@ -18,6 +18,10 @@ echo 'CONFIG_PACKAGE_luci=y' >> $BUILDROOT/.config
 #echo 'CONFIG_PACKAGE_luci-app-aria2=y' >> $BUILDROOT/.config
 #echo 'CONFIG_PACKAGE_luci-app-samba4=y' >> $BUILDROOT/.config
 
+# Include Imagebuilder
+echo 'CONFIG_IB=y' >> $BUILDROOT/.config
+echo 'CONFIG_IB_STANDALONE=y' >> $BUILDROOT/.config
+
 # QCN550x apjet01 board
 echo 'CONFIG_TARGET_ath79=y' >> $BUILDROOT/.config
 echo 'CONFIG_TARGET_ath79_generic=y' >> $BUILDROOT/.config
@@ -46,7 +50,16 @@ echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
 #2025 optimization (since that there are many stronger device for using as gateway)
 echo '# CONFIG_PACKAGE_luci-proto-ipv6 is not set' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_luci-proto-ppp is not set' >> $BUILDROOT/.config
+
+echo '# CONFIG_PACKAGE_firewall4 is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_jansson is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_kmod-nft-fib is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_kmod-ppp is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_libmnl is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_libnftnl is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_nftables-json is not set' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_odhcp6c is not set' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_odhcpd-ipv6only is not set' >> $BUILDROOT/.config
 echo '# CONFIG_PACKAGE_ppp is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_ppp-mod-pppoe is not set' >> $BUILDROOT/.config
+echo '# CONFIG_PACKAGE_ucode-mod-uci is not set' >> $BUILDROOT/.config
+echo 'CONFIG_PACKAGE_kmod-lib-crc-ccitt=y' >> $BUILDROOT/.config
