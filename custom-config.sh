@@ -48,18 +48,18 @@ echo '# CONFIG_PACKAGE_wpad-basic-mbedtls is not set' >> $BUILDROOT/.config
 echo 'CONFIG_PACKAGE_wpad-mbedtls=y' >> $BUILDROOT/.config
 
 #2025 optimization (since that there are many stronger device for using as gateway)
-echo '# CONFIG_PACKAGE_luci-proto-ipv6 is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_luci-proto-ppp is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_luci-proto-ipv6 is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_luci-proto-ppp is not set' >> $BUILDROOT/.config
 
-echo '# CONFIG_PACKAGE_firewall4 is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_jansson is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_kmod-nft-fib is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_kmod-ppp is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_libmnl is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_libnftnl is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_nftables-json is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_odhcp6c is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_odhcpd-ipv6only is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_ppp is not set' >> $BUILDROOT/.config
-echo '# CONFIG_PACKAGE_ucode-mod-uci is not set' >> $BUILDROOT/.config
-echo 'CONFIG_PACKAGE_kmod-lib-crc-ccitt=y' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_firewall4 is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_jansson is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_kmod-nft-fib is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_kmod-ppp is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_libmnl is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_libnftnl is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_nftables-json is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_odhcp6c is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_odhcpd-ipv6only is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_ppp is not set' >> $BUILDROOT/.config
+#echo '# CONFIG_PACKAGE_ucode-mod-uci is not set' >> $BUILDROOT/.config
+#echo 'CONFIG_PACKAGE_kmod-lib-crc-ccitt=y' >> $BUILDROOT/.config
